@@ -1,0 +1,10 @@
+---
+slug: :mikutter_mediaplayer
+depends:
+  mikutter: 3.0.3
+  plugin: 
+  - mikutter_gstreamer
+version: '1.0'
+author: shibafu528
+name: mikutter_mediaplayer
+description: "音楽を再生するプラグイン"

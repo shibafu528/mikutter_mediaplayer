@@ -60,4 +60,9 @@ Plugin.create(:mikutter_mediaplayer) do
         role: :window) do
         Plugin.call(:gst_stop, :mikutter_mediaplayer)
     end
+
+    filter_gst_mixer do |channels|
+        channels << :mikutter_mediaplayer
+        [channels]
+    end
 end
